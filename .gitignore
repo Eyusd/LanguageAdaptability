@@ -1,0 +1,5 @@
+
+*.pyc
+
+Data/
+yolo/yolov5x_saved_model

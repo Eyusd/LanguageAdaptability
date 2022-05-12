@@ -1,0 +1,902 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (policy_translation) JobQueued: {'identifier': 'policy_translation', 'dependencies': OrderedDict()}
+[0.000522] (policy_translation) JobStarted: {'identifier': 'policy_translation'}
+[0.016083] (policy_translation) JobProgress: {'identifier': 'policy_translation', 'progress': 'cmake'}
+[0.016900] (policy_translation) Command: {'cmd': ['/usr/bin/cmake', '/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation', '-DCMAKE_INSTALL_PREFIX=/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation'], 'cwd': '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ML)'), ('USER', 'eyusd'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/eyusd/anaconda3/envs/ML/lib:/home/eyusd/ML/ros2-linux/opt/yaml_cpp_vendor/lib:/home/eyusd/ML/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/eyusd/ML/ros2-linux/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/lib:/home/eyusd/ML/coppeliasim'), ('SHLVL', '1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/eyusd/ML/LanguagePolicies/ros2/src'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/eyusd'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('_CE_M', ''), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/eyusd/ML/coppeliasim'), ('COPPELIASIM_ROOT', '/home/eyusd/ML/coppeliasim'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eyusd/ML/ros2-linux'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'eyusd'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('NAME', 'DESKTOP-7H5RVGE'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/eyusd/anaconda3/envs/ML/lib/pkgconfig:/home/eyusd/ML/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/eyusd/ML/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/home/eyusd/anaconda3/envs/ML/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/eyusd/ML/ros2-linux/bin:/opt/ros/eloquent/bin:/home/eyusd/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt:/mnt/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Anaconda3/envs/ml:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/mingw-w64/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/usr/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Scripts:/mnt/c/ProgramData/Anaconda3/envs/ml/bin:/mnt/c/Program Files/ImageMagick-7.0.10-Q16-HDRI:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files/Microsoft MPI/Bin:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Calibre2:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/Anaconda3/condabin:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python37:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Wolfram Research/WolframScript:/mnt/c/Program Files/Power:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Program Files (x86)/dotnet:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python39:/mnt/c/Users/eyusd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.1.1/bin:/mnt/c/Users/eyusd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eyusd/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Program Files/MongoDB/Server/4.4/bin:/mnt/c/Users/eyusd/AppData/Roaming/npm:/mnt/c/Users/eyusd/.dotnet/tools:/mnt/c/Users/eyusd/Desktop/Robot Dynamics/raisimlib/raisim/win32/mt_debug/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('CONDA_PREFIX_1', '/home/eyusd/anaconda3'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/eyusd/ML/ros2-linux:/opt/ros/eloquent'), ('CONDA_PYTHON_EXE', '/home/eyusd/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ML'), ('PWD', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation'), ('CONDA_EXE', '/home/eyusd/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eyusd/ML/ros2-linux/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('CONDA_PREFIX', '/home/eyusd/anaconda3/envs/ML'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/eyusd/anaconda3/envs/ML:/home/eyusd/ML/ros2-linux:/opt/ros/eloquent'), ('WSLENV', '')]), 'shell': False}
+[0.097536] (-) TimerEvent: {}
+[0.197999] (-) TimerEvent: {}
+[0.298390] (-) TimerEvent: {}
+[0.398770] (-) TimerEvent: {}
+[0.499170] (-) TimerEvent: {}
+[0.584186] (policy_translation) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.599335] (-) TimerEvent: {}
+[0.699730] (-) TimerEvent: {}
+[0.800123] (-) TimerEvent: {}
+[0.900512] (-) TimerEvent: {}
+[1.000888] (-) TimerEvent: {}
+[1.101270] (-) TimerEvent: {}
+[1.201647] (-) TimerEvent: {}
+[1.300078] (policy_translation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.301762] (-) TimerEvent: {}
+[1.402119] (-) TimerEvent: {}
+[1.502544] (-) TimerEvent: {}
+[1.602913] (-) TimerEvent: {}
+[1.630950] (policy_translation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.703060] (-) TimerEvent: {}
+[1.803457] (-) TimerEvent: {}
+[1.903891] (-) TimerEvent: {}
+[2.004312] (-) TimerEvent: {}
+[2.013272] (policy_translation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.013651] (policy_translation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.104474] (-) TimerEvent: {}
+[2.204848] (-) TimerEvent: {}
+[2.305283] (-) TimerEvent: {}
+[2.395379] (policy_translation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.399086] (policy_translation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.405522] (-) TimerEvent: {}
+[2.505881] (-) TimerEvent: {}
+[2.606252] (-) TimerEvent: {}
+[2.706777] (-) TimerEvent: {}
+[2.807199] (-) TimerEvent: {}
+[2.907580] (-) TimerEvent: {}
+[3.008063] (-) TimerEvent: {}
+[3.108483] (-) TimerEvent: {}
+[3.208854] (-) TimerEvent: {}
+[3.309245] (-) TimerEvent: {}
+[3.409605] (-) TimerEvent: {}
+[3.510058] (-) TimerEvent: {}
+[3.610583] (-) TimerEvent: {}
+[3.613359] (policy_translation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.615029] (policy_translation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.710730] (-) TimerEvent: {}
+[3.811172] (-) TimerEvent: {}
+[3.911520] (-) TimerEvent: {}
+[4.011927] (-) TimerEvent: {}
+[4.041490] (policy_translation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.041908] (policy_translation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.112073] (-) TimerEvent: {}
+[4.212438] (-) TimerEvent: {}
+[4.312850] (-) TimerEvent: {}
+[4.413256] (-) TimerEvent: {}
+[4.445653] (policy_translation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.449330] (policy_translation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.513385] (-) TimerEvent: {}
+[4.613775] (-) TimerEvent: {}
+[4.714269] (-) TimerEvent: {}
+[4.814682] (-) TimerEvent: {}
+[4.915074] (-) TimerEvent: {}
+[5.015495] (-) TimerEvent: {}
+[5.116022] (-) TimerEvent: {}
+[5.216621] (-) TimerEvent: {}
+[5.317161] (-) TimerEvent: {}
+[5.417691] (-) TimerEvent: {}
+[5.518176] (-) TimerEvent: {}
+[5.618687] (-) TimerEvent: {}
+[5.719216] (-) TimerEvent: {}
+[5.819589] (-) TimerEvent: {}
+[5.920111] (-) TimerEvent: {}
+[6.020561] (-) TimerEvent: {}
+[6.109143] (policy_translation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.111189] (policy_translation) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/home/eyusd/ML/ros2-linux/share/ament_cmake/cmake)\n'}
+[6.120764] (-) TimerEvent: {}
+[6.134751] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found suitable version "3.6.13", minimum required is "3") \n'}
+[6.134985] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/eyusd/anaconda3/envs/ML/bin/python3\n'}
+[6.221002] (-) TimerEvent: {}
+[6.297671] (policy_translation) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/home/eyusd/ML/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[6.313116] (policy_translation) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[6.321243] (-) TimerEvent: {}
+[6.421637] (-) TimerEvent: {}
+[6.522133] (-) TimerEvent: {}
+[6.622608] (-) TimerEvent: {}
+[6.723070] (-) TimerEvent: {}
+[6.823486] (-) TimerEvent: {}
+[6.923970] (-) TimerEvent: {}
+[7.024494] (-) TimerEvent: {}
+[7.125063] (-) TimerEvent: {}
+[7.225573] (-) TimerEvent: {}
+[7.326014] (-) TimerEvent: {}
+[7.329510] (policy_translation) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/home/eyusd/ML/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[7.426150] (-) TimerEvent: {}
+[7.526566] (-) TimerEvent: {}
+[7.627125] (-) TimerEvent: {}
+[7.727601] (-) TimerEvent: {}
+[7.828157] (-) TimerEvent: {}
+[7.928740] (-) TimerEvent: {}
+[8.029258] (-) TimerEvent: {}
+[8.129708] (-) TimerEvent: {}
+[8.230125] (-) TimerEvent: {}
+[8.330631] (-) TimerEvent: {}
+[8.431069] (-) TimerEvent: {}
+[8.531461] (-) TimerEvent: {}
+[8.631904] (-) TimerEvent: {}
+[8.732415] (-) TimerEvent: {}
+[8.832922] (-) TimerEvent: {}
+[8.933350] (-) TimerEvent: {}
+[9.033905] (-) TimerEvent: {}
+[9.134377] (-) TimerEvent: {}
+[9.234800] (-) TimerEvent: {}
+[9.335225] (-) TimerEvent: {}
+[9.435727] (-) TimerEvent: {}
+[9.536187] (-) TimerEvent: {}
+[9.636696] (-) TimerEvent: {}
+[9.737126] (-) TimerEvent: {}
+[9.837704] (-) TimerEvent: {}
+[9.938301] (-) TimerEvent: {}
+[10.038942] (-) TimerEvent: {}
+[10.139476] (-) TimerEvent: {}
+[10.239912] (-) TimerEvent: {}
+[10.340163] (policy_translation) StdoutLine: {'line': b'-- Found OpenSSL: /home/eyusd/anaconda3/envs/ML/lib/libcrypto.so (found version "1.1.1n") \n'}
+[10.340416] (-) TimerEvent: {}
+[10.440768] (-) TimerEvent: {}
+[10.541183] (-) TimerEvent: {}
+[10.641657] (-) TimerEvent: {}
+[10.742113] (-) TimerEvent: {}
+[10.842619] (-) TimerEvent: {}
+[10.943108] (-) TimerEvent: {}
+[11.043536] (-) TimerEvent: {}
+[11.144070] (-) TimerEvent: {}
+[11.244814] (-) TimerEvent: {}
+[11.345245] (-) TimerEvent: {}
+[11.445792] (-) TimerEvent: {}
+[11.546237] (-) TimerEvent: {}
+[11.646686] (-) TimerEvent: {}
+[11.747151] (-) TimerEvent: {}
+[11.847650] (-) TimerEvent: {}
+[11.948145] (-) TimerEvent: {}
+[12.048558] (-) TimerEvent: {}
+[12.149102] (-) TimerEvent: {}
+[12.249524] (-) TimerEvent: {}
+[12.350083] (-) TimerEvent: {}
+[12.450618] (-) TimerEvent: {}
+[12.551131] (-) TimerEvent: {}
+[12.651583] (-) TimerEvent: {}
+[12.752084] (-) TimerEvent: {}
+[12.852617] (-) TimerEvent: {}
+[12.953093] (-) TimerEvent: {}
+[13.053597] (-) TimerEvent: {}
+[13.154115] (-) TimerEvent: {}
+[13.254556] (-) TimerEvent: {}
+[13.355038] (-) TimerEvent: {}
+[13.455524] (-) TimerEvent: {}
+[13.556024] (-) TimerEvent: {}
+[13.656600] (-) TimerEvent: {}
+[13.757101] (-) TimerEvent: {}
+[13.857591] (-) TimerEvent: {}
+[13.958021] (-) TimerEvent: {}
+[14.058493] (-) TimerEvent: {}
+[14.115911] (policy_translation) StdoutLine: {'line': b'-- Found FastRTPS: /home/eyusd/ML/ros2-linux/include  \n'}
+[14.158669] (-) TimerEvent: {}
+[14.259172] (-) TimerEvent: {}
+[14.359646] (-) TimerEvent: {}
+[14.460109] (-) TimerEvent: {}
+[14.560571] (-) TimerEvent: {}
+[14.661010] (-) TimerEvent: {}
+[14.761530] (-) TimerEvent: {}
+[14.861967] (-) TimerEvent: {}
+[14.962458] (-) TimerEvent: {}
+[15.062883] (-) TimerEvent: {}
+[15.163374] (-) TimerEvent: {}
+[15.263930] (-) TimerEvent: {}
+[15.364366] (-) TimerEvent: {}
+[15.464813] (-) TimerEvent: {}
+[15.565338] (-) TimerEvent: {}
+[15.665819] (-) TimerEvent: {}
+[15.766329] (-) TimerEvent: {}
+[15.866849] (-) TimerEvent: {}
+[15.967273] (-) TimerEvent: {}
+[16.067699] (-) TimerEvent: {}
+[16.168115] (-) TimerEvent: {}
+[16.268607] (-) TimerEvent: {}
+[16.369166] (-) TimerEvent: {}
+[16.469655] (-) TimerEvent: {}
+[16.570072] (-) TimerEvent: {}
+[16.670551] (-) TimerEvent: {}
+[16.771034] (-) TimerEvent: {}
+[16.871568] (-) TimerEvent: {}
+[16.972055] (-) TimerEvent: {}
+[17.072522] (-) TimerEvent: {}
+[17.172960] (-) TimerEvent: {}
+[17.273365] (-) TimerEvent: {}
+[17.373815] (-) TimerEvent: {}
+[17.474248] (-) TimerEvent: {}
+[17.574735] (-) TimerEvent: {}
+[17.675265] (-) TimerEvent: {}
+[17.775810] (-) TimerEvent: {}
+[17.876292] (-) TimerEvent: {}
+[17.976760] (-) TimerEvent: {}
+[18.077132] (-) TimerEvent: {}
+[18.177637] (-) TimerEvent: {}
+[18.278082] (-) TimerEvent: {}
+[18.378554] (-) TimerEvent: {}
+[18.479055] (-) TimerEvent: {}
+[18.579497] (-) TimerEvent: {}
+[18.679952] (-) TimerEvent: {}
+[18.780355] (-) TimerEvent: {}
+[18.880830] (-) TimerEvent: {}
+[18.981304] (-) TimerEvent: {}
+[19.081788] (-) TimerEvent: {}
+[19.182137] (-) TimerEvent: {}
+[19.282628] (-) TimerEvent: {}
+[19.383191] (-) TimerEvent: {}
+[19.483675] (-) TimerEvent: {}
+[19.584159] (-) TimerEvent: {}
+[19.684605] (-) TimerEvent: {}
+[19.785015] (-) TimerEvent: {}
+[19.885514] (-) TimerEvent: {}
+[19.986053] (-) TimerEvent: {}
+[20.047472] (policy_translation) StdoutLine: {'line': b'-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake\n'}
+[20.071656] (policy_translation) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/home/eyusd/ML/ros2-linux/share/sensor_msgs/cmake)\n'}
+[20.086289] (-) TimerEvent: {}
+[20.131502] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found version "3.6.13") \n'}
+[20.186523] (-) TimerEvent: {}
+[20.287069] (-) TimerEvent: {}
+[20.351870] (policy_translation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c\n'}
+[20.387274] (-) TimerEvent: {}
+[20.408992] (policy_translation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp\n'}
+[20.487571] (-) TimerEvent: {}
+[20.588142] (-) TimerEvent: {}
+[20.688562] (-) TimerEvent: {}
+[20.789111] (-) TimerEvent: {}
+[20.889478] (-) TimerEvent: {}
+[20.989857] (-) TimerEvent: {}
+[21.090252] (-) TimerEvent: {}
+[21.190640] (-) TimerEvent: {}
+[21.290994] (-) TimerEvent: {}
+[21.391347] (-) TimerEvent: {}
+[21.491707] (-) TimerEvent: {}
+[21.592061] (-) TimerEvent: {}
+[21.692420] (-) TimerEvent: {}
+[21.792806] (-) TimerEvent: {}
+[21.893307] (-) TimerEvent: {}
+[21.994078] (-) TimerEvent: {}
+[22.094685] (-) TimerEvent: {}
+[22.195110] (-) TimerEvent: {}
+[22.295481] (-) TimerEvent: {}
+[22.395852] (-) TimerEvent: {}
+[22.496211] (-) TimerEvent: {}
+[22.596543] (-) TimerEvent: {}
+[22.696933] (-) TimerEvent: {}
+[22.797265] (-) TimerEvent: {}
+[22.897648] (-) TimerEvent: {}
+[22.998024] (-) TimerEvent: {}
+[23.098377] (-) TimerEvent: {}
+[23.198735] (-) TimerEvent: {}
+[23.299070] (-) TimerEvent: {}
+[23.399418] (-) TimerEvent: {}
+[23.499802] (-) TimerEvent: {}
+[23.600183] (-) TimerEvent: {}
+[23.700572] (-) TimerEvent: {}
+[23.800982] (-) TimerEvent: {}
+[23.901319] (-) TimerEvent: {}
+[24.001737] (-) TimerEvent: {}
+[24.102092] (-) TimerEvent: {}
+[24.202476] (-) TimerEvent: {}
+[24.302914] (-) TimerEvent: {}
+[24.403316] (-) TimerEvent: {}
+[24.503745] (-) TimerEvent: {}
+[24.604106] (-) TimerEvent: {}
+[24.704507] (-) TimerEvent: {}
+[24.804906] (-) TimerEvent: {}
+[24.905267] (-) TimerEvent: {}
+[25.005674] (-) TimerEvent: {}
+[25.106104] (-) TimerEvent: {}
+[25.206580] (-) TimerEvent: {}
+[25.307006] (-) TimerEvent: {}
+[25.407387] (-) TimerEvent: {}
+[25.507759] (-) TimerEvent: {}
+[25.608148] (-) TimerEvent: {}
+[25.708551] (-) TimerEvent: {}
+[25.808902] (-) TimerEvent: {}
+[25.909273] (-) TimerEvent: {}
+[26.009704] (-) TimerEvent: {}
+[26.110117] (-) TimerEvent: {}
+[26.210613] (-) TimerEvent: {}
+[26.311202] (-) TimerEvent: {}
+[26.411580] (-) TimerEvent: {}
+[26.512080] (-) TimerEvent: {}
+[26.612544] (-) TimerEvent: {}
+[26.712996] (-) TimerEvent: {}
+[26.813440] (-) TimerEvent: {}
+[26.913994] (-) TimerEvent: {}
+[27.014585] (-) TimerEvent: {}
+[27.115031] (-) TimerEvent: {}
+[27.215377] (-) TimerEvent: {}
+[27.315767] (-) TimerEvent: {}
+[27.416141] (-) TimerEvent: {}
+[27.516546] (-) TimerEvent: {}
+[27.616897] (-) TimerEvent: {}
+[27.717251] (-) TimerEvent: {}
+[27.817637] (-) TimerEvent: {}
+[27.918007] (-) TimerEvent: {}
+[28.018449] (-) TimerEvent: {}
+[28.118845] (-) TimerEvent: {}
+[28.219288] (-) TimerEvent: {}
+[28.319715] (-) TimerEvent: {}
+[28.420073] (-) TimerEvent: {}
+[28.520454] (-) TimerEvent: {}
+[28.620830] (-) TimerEvent: {}
+[28.721215] (-) TimerEvent: {}
+[28.821589] (-) TimerEvent: {}
+[28.922016] (-) TimerEvent: {}
+[29.022427] (-) TimerEvent: {}
+[29.122810] (-) TimerEvent: {}
+[29.223167] (-) TimerEvent: {}
+[29.323538] (-) TimerEvent: {}
+[29.424033] (-) TimerEvent: {}
+[29.524432] (-) TimerEvent: {}
+[29.624832] (-) TimerEvent: {}
+[29.725269] (-) TimerEvent: {}
+[29.825688] (-) TimerEvent: {}
+[29.926077] (-) TimerEvent: {}
+[30.026541] (-) TimerEvent: {}
+[30.126930] (-) TimerEvent: {}
+[30.227285] (-) TimerEvent: {}
+[30.327702] (-) TimerEvent: {}
+[30.428061] (-) TimerEvent: {}
+[30.528419] (-) TimerEvent: {}
+[30.628779] (-) TimerEvent: {}
+[30.729165] (-) TimerEvent: {}
+[30.829504] (-) TimerEvent: {}
+[30.929927] (-) TimerEvent: {}
+[31.030324] (-) TimerEvent: {}
+[31.130722] (-) TimerEvent: {}
+[31.231151] (-) TimerEvent: {}
+[31.331541] (-) TimerEvent: {}
+[31.431937] (-) TimerEvent: {}
+[31.532343] (-) TimerEvent: {}
+[31.632700] (-) TimerEvent: {}
+[31.733148] (-) TimerEvent: {}
+[31.833500] (-) TimerEvent: {}
+[31.933871] (-) TimerEvent: {}
+[32.034236] (-) TimerEvent: {}
+[32.134643] (-) TimerEvent: {}
+[32.235028] (-) TimerEvent: {}
+[32.335395] (-) TimerEvent: {}
+[32.435769] (-) TimerEvent: {}
+[32.536154] (-) TimerEvent: {}
+[32.636537] (-) TimerEvent: {}
+[32.736965] (-) TimerEvent: {}
+[32.837417] (-) TimerEvent: {}
+[32.937818] (-) TimerEvent: {}
+[33.038217] (-) TimerEvent: {}
+[33.138603] (-) TimerEvent: {}
+[33.239003] (-) TimerEvent: {}
+[33.339472] (-) TimerEvent: {}
+[33.439939] (-) TimerEvent: {}
+[33.498672] (policy_translation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/home/eyusd/ML/ros2-linux/share/rmw_implementation_cmake/cmake)\n'}
+[33.520317] (policy_translation) StdoutLine: {'line': b'-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found suitable version "3.6.13", minimum required is "3.5") \n'}
+[33.521693] (policy_translation) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/home/eyusd/ML/ros2-linux/share/python_cmake_module/cmake)\n'}
+[33.540159] (-) TimerEvent: {}
+[33.548580] (policy_translation) StdoutLine: {'line': b'-- Found PythonLibs: /home/eyusd/anaconda3/envs/ML/lib/libpython3.6m.so (found suitable version "3.6.13", minimum required is "3.5") \n'}
+[33.548855] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/eyusd/anaconda3/envs/ML/bin/python3\n'}
+[33.548924] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/eyusd/anaconda3/envs/ML/include/python3.6m\n'}
+[33.548983] (policy_translation) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/eyusd/anaconda3/envs/ML/lib/libpython3.6m.so\n'}
+[33.569946] (policy_translation) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[33.640296] (-) TimerEvent: {}
+[33.740763] (-) TimerEvent: {}
+[33.841338] (-) TimerEvent: {}
+[33.941813] (-) TimerEvent: {}
+[34.042271] (-) TimerEvent: {}
+[34.142710] (-) TimerEvent: {}
+[34.243124] (-) TimerEvent: {}
+[34.343646] (-) TimerEvent: {}
+[34.444136] (-) TimerEvent: {}
+[34.544634] (-) TimerEvent: {}
+[34.645198] (-) TimerEvent: {}
+[34.745662] (-) TimerEvent: {}
+[34.846037] (-) TimerEvent: {}
+[34.946809] (-) TimerEvent: {}
+[35.047291] (-) TimerEvent: {}
+[35.147769] (-) TimerEvent: {}
+[35.248247] (-) TimerEvent: {}
+[35.348775] (-) TimerEvent: {}
+[35.449441] (-) TimerEvent: {}
+[35.549935] (-) TimerEvent: {}
+[35.650475] (-) TimerEvent: {}
+[35.751011] (-) TimerEvent: {}
+[35.851490] (-) TimerEvent: {}
+[35.951977] (-) TimerEvent: {}
+[36.052422] (-) TimerEvent: {}
+[36.152890] (-) TimerEvent: {}
+[36.253461] (-) TimerEvent: {}
+[36.353942] (-) TimerEvent: {}
+[36.454489] (-) TimerEvent: {}
+[36.554921] (-) TimerEvent: {}
+[36.655330] (-) TimerEvent: {}
+[36.755883] (-) TimerEvent: {}
+[36.856316] (-) TimerEvent: {}
+[36.956944] (-) TimerEvent: {}
+[37.057592] (-) TimerEvent: {}
+[37.158073] (-) TimerEvent: {}
+[37.258559] (-) TimerEvent: {}
+[37.359078] (-) TimerEvent: {}
+[37.459570] (-) TimerEvent: {}
+[37.560027] (-) TimerEvent: {}
+[37.660467] (-) TimerEvent: {}
+[37.760941] (-) TimerEvent: {}
+[37.861428] (-) TimerEvent: {}
+[37.961865] (-) TimerEvent: {}
+[38.062398] (-) TimerEvent: {}
+[38.162921] (-) TimerEvent: {}
+[38.263356] (-) TimerEvent: {}
+[38.363879] (-) TimerEvent: {}
+[38.464299] (-) TimerEvent: {}
+[38.564993] (-) TimerEvent: {}
+[38.665670] (-) TimerEvent: {}
+[38.766156] (-) TimerEvent: {}
+[38.866665] (-) TimerEvent: {}
+[38.967290] (-) TimerEvent: {}
+[39.067804] (-) TimerEvent: {}
+[39.168291] (-) TimerEvent: {}
+[39.268745] (-) TimerEvent: {}
+[39.369243] (-) TimerEvent: {}
+[39.469747] (-) TimerEvent: {}
+[39.570210] (-) TimerEvent: {}
+[39.670668] (-) TimerEvent: {}
+[39.771275] (-) TimerEvent: {}
+[39.871791] (-) TimerEvent: {}
+[39.972273] (-) TimerEvent: {}
+[40.072836] (-) TimerEvent: {}
+[40.173322] (-) TimerEvent: {}
+[40.273798] (-) TimerEvent: {}
+[40.374245] (-) TimerEvent: {}
+[40.474886] (-) TimerEvent: {}
+[40.575299] (-) TimerEvent: {}
+[40.675709] (-) TimerEvent: {}
+[40.776206] (-) TimerEvent: {}
+[40.876922] (-) TimerEvent: {}
+[40.977836] (-) TimerEvent: {}
+[41.078981] (-) TimerEvent: {}
+[41.179723] (-) TimerEvent: {}
+[41.280234] (-) TimerEvent: {}
+[41.380751] (-) TimerEvent: {}
+[41.481286] (-) TimerEvent: {}
+[41.581770] (-) TimerEvent: {}
+[41.682255] (-) TimerEvent: {}
+[41.782788] (-) TimerEvent: {}
+[41.883200] (-) TimerEvent: {}
+[41.983621] (-) TimerEvent: {}
+[42.084048] (-) TimerEvent: {}
+[42.184505] (-) TimerEvent: {}
+[42.285035] (-) TimerEvent: {}
+[42.385487] (-) TimerEvent: {}
+[42.485914] (-) TimerEvent: {}
+[42.586397] (-) TimerEvent: {}
+[42.686856] (-) TimerEvent: {}
+[42.787396] (-) TimerEvent: {}
+[42.887833] (-) TimerEvent: {}
+[42.988378] (-) TimerEvent: {}
+[43.088832] (-) TimerEvent: {}
+[43.189328] (-) TimerEvent: {}
+[43.289769] (-) TimerEvent: {}
+[43.390204] (-) TimerEvent: {}
+[43.490750] (-) TimerEvent: {}
+[43.591172] (-) TimerEvent: {}
+[43.691677] (-) TimerEvent: {}
+[43.792129] (-) TimerEvent: {}
+[43.892597] (-) TimerEvent: {}
+[43.993078] (-) TimerEvent: {}
+[44.093499] (-) TimerEvent: {}
+[44.194039] (-) TimerEvent: {}
+[44.294456] (-) TimerEvent: {}
+[44.394930] (-) TimerEvent: {}
+[44.495355] (-) TimerEvent: {}
+[44.595954] (-) TimerEvent: {}
+[44.696438] (-) TimerEvent: {}
+[44.796957] (-) TimerEvent: {}
+[44.897457] (-) TimerEvent: {}
+[44.997959] (-) TimerEvent: {}
+[45.098386] (-) TimerEvent: {}
+[45.198812] (-) TimerEvent: {}
+[45.299301] (-) TimerEvent: {}
+[45.399825] (-) TimerEvent: {}
+[45.500427] (-) TimerEvent: {}
+[45.601082] (-) TimerEvent: {}
+[45.701595] (-) TimerEvent: {}
+[45.802109] (-) TimerEvent: {}
+[45.902529] (-) TimerEvent: {}
+[46.002957] (-) TimerEvent: {}
+[46.103443] (-) TimerEvent: {}
+[46.203917] (-) TimerEvent: {}
+[46.304401] (-) TimerEvent: {}
+[46.404908] (-) TimerEvent: {}
+[46.505508] (-) TimerEvent: {}
+[46.606118] (-) TimerEvent: {}
+[46.706698] (-) TimerEvent: {}
+[46.807265] (-) TimerEvent: {}
+[46.907707] (-) TimerEvent: {}
+[47.008180] (-) TimerEvent: {}
+[47.108682] (-) TimerEvent: {}
+[47.209183] (-) TimerEvent: {}
+[47.309683] (-) TimerEvent: {}
+[47.410152] (-) TimerEvent: {}
+[47.510813] (-) TimerEvent: {}
+[47.611463] (-) TimerEvent: {}
+[47.712150] (-) TimerEvent: {}
+[47.812735] (-) TimerEvent: {}
+[47.913245] (-) TimerEvent: {}
+[48.013701] (-) TimerEvent: {}
+[48.114132] (-) TimerEvent: {}
+[48.214672] (-) TimerEvent: {}
+[48.315214] (-) TimerEvent: {}
+[48.415765] (-) TimerEvent: {}
+[48.516244] (-) TimerEvent: {}
+[48.616815] (-) TimerEvent: {}
+[48.717266] (-) TimerEvent: {}
+[48.817709] (-) TimerEvent: {}
+[48.918136] (-) TimerEvent: {}
+[49.018555] (-) TimerEvent: {}
+[49.118941] (-) TimerEvent: {}
+[49.219301] (-) TimerEvent: {}
+[49.319724] (-) TimerEvent: {}
+[49.420146] (-) TimerEvent: {}
+[49.520644] (-) TimerEvent: {}
+[49.621188] (-) TimerEvent: {}
+[49.721652] (-) TimerEvent: {}
+[49.822009] (-) TimerEvent: {}
+[49.922409] (-) TimerEvent: {}
+[50.022899] (-) TimerEvent: {}
+[50.123336] (-) TimerEvent: {}
+[50.223824] (-) TimerEvent: {}
+[50.324233] (-) TimerEvent: {}
+[50.424747] (-) TimerEvent: {}
+[50.525131] (-) TimerEvent: {}
+[50.625553] (-) TimerEvent: {}
+[50.726030] (-) TimerEvent: {}
+[50.826509] (-) TimerEvent: {}
+[50.926920] (-) TimerEvent: {}
+[51.027360] (-) TimerEvent: {}
+[51.127823] (-) TimerEvent: {}
+[51.228322] (-) TimerEvent: {}
+[51.328755] (-) TimerEvent: {}
+[51.429119] (-) TimerEvent: {}
+[51.529496] (-) TimerEvent: {}
+[51.629979] (-) TimerEvent: {}
+[51.730441] (-) TimerEvent: {}
+[51.830928] (-) TimerEvent: {}
+[51.931291] (-) TimerEvent: {}
+[52.031678] (-) TimerEvent: {}
+[52.132084] (-) TimerEvent: {}
+[52.232460] (-) TimerEvent: {}
+[52.332822] (-) TimerEvent: {}
+[52.384063] (policy_translation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/home/eyusd/ML/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[52.403099] (policy_translation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[52.403906] (policy_translation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[52.408534] (policy_translation) StdoutLine: {'line': b'-- Configuring done\n'}
+[52.433022] (-) TimerEvent: {}
+[52.533477] (-) TimerEvent: {}
+[52.633966] (-) TimerEvent: {}
+[52.671883] (policy_translation) StdoutLine: {'line': b'-- Generating done\n'}
+[52.676780] (policy_translation) StdoutLine: {'line': b'-- Build files have been written to: /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation\n'}
+[52.684913] (policy_translation) CommandEnded: {'returncode': 0}
+[52.688643] (policy_translation) JobProgress: {'identifier': 'policy_translation', 'progress': 'build'}
+[52.688796] (policy_translation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation', '--', '-j8', '-l8'], 'cwd': '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(ML)'), ('USER', 'eyusd'), ('OSPL_INFOFILE', '<stdout>'), ('LD_LIBRARY_PATH', '/home/eyusd/anaconda3/envs/ML/lib:/home/eyusd/ML/ros2-linux/opt/yaml_cpp_vendor/lib:/home/eyusd/ML/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/home/eyusd/ML/ros2-linux/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/lib:/home/eyusd/ML/coppeliasim'), ('SHLVL', '1'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/eyusd/ML/LanguagePolicies/ros2/src'), ('OSPL_URI', 'file:///opt/ros/eloquent/share/opensplice_cmake_module/config/ros_ospl.xml'), ('HOME', '/home/eyusd'), ('OSPL_VERBOSITY', '2'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('ROS_PYTHON_VERSION', '3'), ('OSPL_TMPL_PATH', '/usr/etc/opensplice/idlpp'), ('WSL_DISTRO_NAME', 'Ubuntu-18.04'), ('_CE_M', ''), ('QT_QPA_PLATFORM_PLUGIN_PATH', '/home/eyusd/ML/coppeliasim'), ('COPPELIASIM_ROOT', '/home/eyusd/ML/coppeliasim'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/eyusd/ML/ros2-linux'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'eyusd'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('NAME', 'DESKTOP-7H5RVGE'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/eyusd/anaconda3/envs/ML/lib/pkgconfig:/home/eyusd/ML/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/home/eyusd/ML/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('OSPL_ERRORFILE', '<stderr>'), ('PATH', '/home/eyusd/anaconda3/envs/ML/bin:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/home/eyusd/ML/ros2-linux/bin:/opt/ros/eloquent/bin:/home/eyusd/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/intel64/vc_mt:/mnt/c/Program Files (x86)/Intel/oneAPI/tbb/latest/redist/ia32/vc_mt:/mnt/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/intel64_win/compiler:/mnt/c/Program Files (x86)/Intel/oneAPI/compiler/latest/windows/redist/ia32_win/compiler:/mnt/c/Python310/Scripts:/mnt/c/Python310:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/ProgramData/Anaconda3/envs/ml:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/mingw-w64/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/usr/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Library/bin:/mnt/c/ProgramData/Anaconda3/envs/ml/Scripts:/mnt/c/ProgramData/Anaconda3/envs/ml/bin:/mnt/c/Program Files/ImageMagick-7.0.10-Q16-HDRI:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64_win/compiler:/mnt/c/Program Files/Microsoft MPI/Bin:/mnt/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files/Calibre2:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/Anaconda3/condabin:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python37:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python37/Scripts:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2021b/bin:/mnt/c/Program Files/Wolfram Research/WolframScript:/mnt/c/Program Files/Power:/mnt/c/Program Files/dotnet:/mnt/c/Program Files/nodejs:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/PostgreSQL/14/bin:/mnt/c/Program Files (x86)/dotnet:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python39/Scripts:/mnt/c/Users/eyusd/AppData/Local/Programs/Python/Python39:/mnt/c/Users/eyusd/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.1.1/bin:/mnt/c/Users/eyusd/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eyusd/AppData/Local/Google/Cloud SDK/google-cloud-sdk/bin:/mnt/c/Program Files/MongoDB/Server/4.4/bin:/mnt/c/Users/eyusd/AppData/Roaming/npm:/mnt/c/Users/eyusd/.dotnet/tools:/mnt/c/Users/eyusd/Desktop/Robot Dynamics/raisimlib/raisim/win32/mt_debug/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('CONDA_PREFIX_1', '/home/eyusd/anaconda3'), ('OSPL_HOME', '/usr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/eyusd/ML/ros2-linux:/opt/ros/eloquent'), ('CONDA_PYTHON_EXE', '/home/eyusd/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'ML'), ('PWD', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation'), ('CONDA_EXE', '/home/eyusd/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/eyusd/ML/ros2-linux/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('CONDA_PREFIX', '/home/eyusd/anaconda3/envs/ML'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/eyusd/anaconda3/envs/ML:/home/eyusd/ML/ros2-linux:/opt/ros/eloquent'), ('WSLENV', '')]), 'shell': False}
+[52.731794] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__cpp\x1b[0m\n'}
+[52.732063] (policy_translation) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[52.733606] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__dds_connext_idl\x1b[0m\n'}
+[52.734074] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__dds_opensplice_idl\x1b[0m\n'}
+[52.734174] (-) TimerEvent: {}
+[52.743501] (policy_translation) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[52.745220] (policy_translation) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating DDS interfaces\x1b[0m\n'}
+[52.745771] (policy_translation) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating DDS interfaces\x1b[0m\n'}
+[52.834391] (-) TimerEvent: {}
+[52.934862] (-) TimerEvent: {}
+[53.035444] (-) TimerEvent: {}
+[53.135964] (-) TimerEvent: {}
+[53.236561] (-) TimerEvent: {}
+[53.312322] (policy_translation) StdoutLine: {'line': b'[  3%] Built target policy_translation__dds_connext_idl\n'}
+[53.326753] (policy_translation) StdoutLine: {'line': b'[  3%] Built target policy_translation__dds_opensplice_idl\n'}
+[53.336709] (-) TimerEvent: {}
+[53.401761] (policy_translation) StdoutLine: {'line': b'[  3%] Built target policy_translation__cpp\n'}
+[53.414192] (policy_translation) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[53.414478] (policy_translation) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[53.416904] (policy_translation) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[53.417400] (policy_translation) StdoutLine: {'line': b"[  7%] \x1b[34m\x1b[1mGenerating C++ type support for RTI Connext (using '/opt/rti.com/rti_connext_dds-5.3.1/bin/rtiddsgen_server')\x1b[0m\n"}
+[53.419985] (policy_translation) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for PrismTech OpenSplice\x1b[0m\n'}
+[53.436875] (-) TimerEvent: {}
+[53.537320] (-) TimerEvent: {}
+[53.567042] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_generator_c\x1b[0m\n'}
+[53.593113] (policy_translation) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/policy_translation__rosidl_generator_c.dir/rosidl_generator_c/policy_translation/srv/tune_network__functions.c.o\x1b[0m\n'}
+[53.593465] (policy_translation) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/policy_translation__rosidl_generator_c.dir/rosidl_generator_c/policy_translation/srv/network_pt__functions.c.o\x1b[0m\n'}
+[53.595246] (policy_translation) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/policy_translation__rosidl_generator_c.dir/rosidl_generator_c/policy_translation/msg/dummy__functions.c.o\x1b[0m\n'}
+[53.637480] (-) TimerEvent: {}
+[53.670482] (policy_translation) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking C shared library libpolicy_translation__rosidl_generator_c.so\x1b[0m\n'}
+[53.737635] (-) TimerEvent: {}
+[53.838185] (-) TimerEvent: {}
+[53.938728] (-) TimerEvent: {}
+[54.039258] (-) TimerEvent: {}
+[54.139765] (-) TimerEvent: {}
+[54.235482] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[54.239901] (-) TimerEvent: {}
+[54.263820] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_typesupport_cpp\x1b[0m\n'}
+[54.265936] (policy_translation) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/policy_translation/srv/tune_network__type_support.cpp.o\x1b[0m\n'}
+[54.268107] (policy_translation) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/policy_translation/srv/network_pt__type_support.cpp.o\x1b[0m\n'}
+[54.283176] (policy_translation) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/policy_translation/msg/dummy__type_support.cpp.o\x1b[0m\n'}
+[54.283482] (policy_translation) StdoutLine: {'line': b'[ 12%] Built target policy_translation__rosidl_generator_c\n'}
+[54.293530] (policy_translation) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/policy_translation/srv/network_pt__type_support.cpp.o\x1b[0m\n'}
+[54.299242] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[54.304319] (policy_translation) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[54.335209] (policy_translation) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/policy_translation/srv/dds_fastrtps/network_pt__type_support.cpp.o\x1b[0m\n'}
+[54.340053] (-) TimerEvent: {}
+[54.347474] (policy_translation) StderrLine: {'line': b'"NetworkPT_.idl", line 5: can\'t find include file sensor_msgs/msg/dds_opensplice/Image_.idl\n'}
+[54.347891] (policy_translation) StdoutLine: {'line': b"***DDS parse error sensor_msgs undefined at line: 18 (searching from scope 'NetworkPT_Request_')\n"}
+[54.356733] (policy_translation) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[54.357065] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 55, in <module>\n'}
+[54.357286] (policy_translation) StderrLine: {'line': b'    sys.exit(main())\n'}
+[54.357456] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 50, in main\n'}
+[54.357618] (policy_translation) StderrLine: {'line': b'    args.idl_pp,\n'}
+[54.357758] (policy_translation) StderrLine: {'line': b'  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_opensplice_cpp/__init__.py", line 74, in generate_dds_opensplice_cpp\n'}
+[54.357917] (policy_translation) StderrLine: {'line': b'    subprocess.check_call(cmd, cwd=folder)\n'}
+[54.358061] (policy_translation) StderrLine: {'line': b'  File "/home/eyusd/anaconda3/envs/ML/lib/python3.6/subprocess.py", line 311, in check_call\n'}
+[54.358206] (policy_translation) StderrLine: {'line': b'    raise CalledProcessError(retcode, cmd)\n'}
+[54.358398] (policy_translation) StderrLine: {'line': b"subprocess.CalledProcessError: Command '['/usr/bin/idlpp', '-I', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation/rosidl_generator_dds_idl', '-I', '/home/eyusd/ML/ros2-linux/share', '-I', '/usr/etc/opensplice/idlpp', '-S', '-l', 'cpp', '-N', '-d', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation/rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice', '-o', 'maintain-include-namespace', 'NetworkPT_.idl']' returned non-zero exit status 255.\n"}
+[54.381265] (policy_translation) StdoutLine: {'line': b"CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed\n"}
+[54.381630] (policy_translation) StdoutLine: {'line': b"CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed\n"}
+[54.381806] (policy_translation) StderrLine: {'line': b'make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1\n'}
+[54.381955] (policy_translation) StderrLine: {'line': b"make[2]: *** Deleting file 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp'\n"}
+[54.382099] (policy_translation) StderrLine: {'line': b'make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2\n'}
+[54.382237] (policy_translation) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[54.397483] (policy_translation) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/policy_translation/srv/tune_network__type_support.cpp.o\x1b[0m\n'}
+[54.440205] (-) TimerEvent: {}
+[54.540681] (-) TimerEvent: {}
+[54.641134] (-) TimerEvent: {}
+[54.678946] (policy_translation) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/policy_translation/srv/dds_fastrtps/tune_network__type_support.cpp.o\x1b[0m\n'}
+[54.723578] (policy_translation) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/policy_translation/msg/dds_fastrtps/dummy__type_support.cpp.o\x1b[0m\n'}
+[54.728103] (policy_translation) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/policy_translation/msg/dummy__type_support.cpp.o\x1b[0m\n'}
+[54.741265] (-) TimerEvent: {}
+[54.799754] (policy_translation) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[54.841469] (-) TimerEvent: {}
+[54.943067] (-) TimerEvent: {}
+[55.047784] (-) TimerEvent: {}
+[55.151678] (-) TimerEvent: {}
+[55.217083] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_typesupport_c\x1b[0m\n'}
+[55.220275] (policy_translation) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[55.251822] (-) TimerEvent: {}
+[55.252577] (policy_translation) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_c.dir/rosidl_typesupport_c/policy_translation/srv/tune_network__type_support.cpp.o\x1b[0m\n'}
+[55.260579] (policy_translation) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_c.dir/rosidl_typesupport_c/policy_translation/srv/network_pt__type_support.cpp.o\x1b[0m\n'}
+[55.277545] (policy_translation) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_c.dir/rosidl_typesupport_c/policy_translation/msg/dummy__type_support.cpp.o\x1b[0m\n'}
+[55.351201] (policy_translation) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_c.so\x1b[0m\n'}
+[55.351959] (-) TimerEvent: {}
+[55.452351] (-) TimerEvent: {}
+[55.552843] (-) TimerEvent: {}
+[55.572277] (policy_translation) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[55.652989] (-) TimerEvent: {}
+[55.706346] (policy_translation) StdoutLine: {'line': b'[ 23%] Built target policy_translation__rosidl_typesupport_introspection_cpp\n'}
+[55.753143] (-) TimerEvent: {}
+[55.853663] (-) TimerEvent: {}
+[55.902002] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...\n'}
+[55.902402] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Done\n'}
+[55.950699] (policy_translation) StdoutLine: {'line': b'[ 23%] Built target policy_translation__rosidl_typesupport_cpp\n'}
+[55.953822] (-) TimerEvent: {}
+[56.054299] (-) TimerEvent: {}
+[56.154893] (-) TimerEvent: {}
+[56.199915] (policy_translation) StdoutLine: {'line': b'[ 23%] Built target policy_translation__rosidl_typesupport_c\n'}
+[56.200917] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...\n'}
+[56.201225] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Done\n'}
+[56.255030] (-) TimerEvent: {}
+[56.355474] (-) TimerEvent: {}
+[56.361677] (policy_translation) StdoutLine: {'line': b'[ 23%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp\n'}
+[56.403032] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Running rtiddsgen version 2.5.2, please wait ...\n'}
+[56.403364] (policy_translation) StdoutLine: {'line': b'INFO com.rti.ndds.nddsgen.Main Done\n'}
+[56.455644] (-) TimerEvent: {}
+[56.510214] (policy_translation) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target policy_translation__rosidl_typesupport_connext_cpp\x1b[0m\n'}
+[56.555840] (-) TimerEvent: {}
+[56.635639] (policy_translation) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/tune_network__type_support.cpp.o\x1b[0m\n'}
+[56.637549] (policy_translation) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/network_pt__type_support.cpp.o\x1b[0m\n'}
+[56.637950] (policy_translation) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/dummy__type_support.cpp.o\x1b[0m\n'}
+[56.638118] (policy_translation) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_.cxx.o\x1b[0m\n'}
+[56.638286] (policy_translation) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_Plugin.cxx.o\x1b[0m\n'}
+[56.638924] (policy_translation) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_Support.cxx.o\x1b[0m\n'}
+[56.639200] (policy_translation) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_.cxx.o\x1b[0m\n'}
+[56.648668] (policy_translation) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_Plugin.cxx.o\x1b[0m\n'}
+[56.656021] (-) TimerEvent: {}
+[56.756519] (-) TimerEvent: {}
+[56.857177] (-) TimerEvent: {}
+[56.957605] (-) TimerEvent: {}
+[57.058831] (-) TimerEvent: {}
+[57.161704] (-) TimerEvent: {}
+[57.262418] (-) TimerEvent: {}
+[57.362857] (-) TimerEvent: {}
+[57.465298] (-) TimerEvent: {}
+[57.565740] (-) TimerEvent: {}
+[57.619330] (policy_translation) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_Support.cxx.o\x1b[0m\n'}
+[57.666765] (-) TimerEvent: {}
+[57.721367] (policy_translation) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_.cxx.o\x1b[0m\n'}
+[57.722494] (policy_translation) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_Plugin.cxx.o\x1b[0m\n'}
+[57.766901] (-) TimerEvent: {}
+[57.867356] (-) TimerEvent: {}
+[57.930713] (policy_translation) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_cpp.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_Support.cxx.o\x1b[0m\n'}
+[57.967533] (-) TimerEvent: {}
+[58.068931] (-) TimerEvent: {}
+[58.169500] (-) TimerEvent: {}
+[58.270089] (-) TimerEvent: {}
+[58.370639] (-) TimerEvent: {}
+[58.471142] (-) TimerEvent: {}
+[58.571629] (-) TimerEvent: {}
+[58.658852] (policy_translation) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_connext_cpp.so\x1b[0m\n'}
+[58.671777] (-) TimerEvent: {}
+[58.772208] (-) TimerEvent: {}
+[58.872592] (-) TimerEvent: {}
+[58.972953] (-) TimerEvent: {}
+[59.073453] (-) TimerEvent: {}
+[59.173933] (-) TimerEvent: {}
+[59.274425] (-) TimerEvent: {}
+[59.374882] (-) TimerEvent: {}
+[59.458596] (policy_translation) StdoutLine: {'line': b'[ 34%] Built target policy_translation__rosidl_typesupport_connext_cpp\n'}
+[59.459733] (policy_translation) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[59.459989] (policy_translation) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[59.474977] (-) TimerEvent: {}
+[59.575516] (-) TimerEvent: {}
+[59.676143] (-) TimerEvent: {}
+[59.777040] (-) TimerEvent: {}
+[59.877657] (-) TimerEvent: {}
+[59.978615] (-) TimerEvent: {}
+[60.079080] (-) TimerEvent: {}
+[60.179637] (-) TimerEvent: {}
+[60.280160] (-) TimerEvent: {}
+[60.381088] (-) TimerEvent: {}
+[60.481680] (-) TimerEvent: {}
+[60.582515] (-) TimerEvent: {}
+[60.683311] (-) TimerEvent: {}
+[60.784222] (-) TimerEvent: {}
+[60.885135] (-) TimerEvent: {}
+[60.985852] (-) TimerEvent: {}
+[61.086539] (-) TimerEvent: {}
+[61.187158] (-) TimerEvent: {}
+[61.287643] (-) TimerEvent: {}
+[61.388165] (-) TimerEvent: {}
+[61.488647] (-) TimerEvent: {}
+[61.589161] (-) TimerEvent: {}
+[61.689945] (-) TimerEvent: {}
+[61.790594] (-) TimerEvent: {}
+[61.891232] (-) TimerEvent: {}
+[61.991797] (-) TimerEvent: {}
+[62.092338] (-) TimerEvent: {}
+[62.192875] (-) TimerEvent: {}
+[62.293733] (-) TimerEvent: {}
+[62.394211] (-) TimerEvent: {}
+[62.494763] (-) TimerEvent: {}
+[62.595281] (-) TimerEvent: {}
+[62.695841] (-) TimerEvent: {}
+[62.796543] (-) TimerEvent: {}
+[62.897252] (-) TimerEvent: {}
+[62.997911] (-) TimerEvent: {}
+[63.098468] (-) TimerEvent: {}
+[63.198993] (-) TimerEvent: {}
+[63.299758] (-) TimerEvent: {}
+[63.400672] (-) TimerEvent: {}
+[63.501295] (-) TimerEvent: {}
+[63.602277] (-) TimerEvent: {}
+[63.702884] (-) TimerEvent: {}
+[63.803460] (-) TimerEvent: {}
+[63.903913] (-) TimerEvent: {}
+[64.004626] (-) TimerEvent: {}
+[64.105587] (-) TimerEvent: {}
+[64.206132] (-) TimerEvent: {}
+[64.307094] (-) TimerEvent: {}
+[64.407683] (-) TimerEvent: {}
+[64.508551] (-) TimerEvent: {}
+[64.609113] (-) TimerEvent: {}
+[64.709763] (-) TimerEvent: {}
+[64.810619] (-) TimerEvent: {}
+[64.911118] (-) TimerEvent: {}
+[65.012007] (-) TimerEvent: {}
+[65.112932] (-) TimerEvent: {}
+[65.213536] (-) TimerEvent: {}
+[65.314329] (-) TimerEvent: {}
+[65.415366] (-) TimerEvent: {}
+[65.516286] (-) TimerEvent: {}
+[65.617009] (-) TimerEvent: {}
+[65.717580] (-) TimerEvent: {}
+[65.818359] (-) TimerEvent: {}
+[65.919136] (-) TimerEvent: {}
+[66.019572] (-) TimerEvent: {}
+[66.120136] (-) TimerEvent: {}
+[66.221012] (-) TimerEvent: {}
+[66.321509] (-) TimerEvent: {}
+[66.422033] (-) TimerEvent: {}
+[66.522604] (-) TimerEvent: {}
+[66.623346] (-) TimerEvent: {}
+[66.724273] (-) TimerEvent: {}
+[66.824843] (-) TimerEvent: {}
+[66.925421] (-) TimerEvent: {}
+[67.026053] (-) TimerEvent: {}
+[67.126613] (-) TimerEvent: {}
+[67.227173] (-) TimerEvent: {}
+[67.327854] (-) TimerEvent: {}
+[67.428913] (-) TimerEvent: {}
+[67.529599] (-) TimerEvent: {}
+[67.630123] (-) TimerEvent: {}
+[67.730721] (-) TimerEvent: {}
+[67.831265] (-) TimerEvent: {}
+[67.931751] (-) TimerEvent: {}
+[68.032579] (-) TimerEvent: {}
+[68.133181] (-) TimerEvent: {}
+[68.234128] (-) TimerEvent: {}
+[68.335272] (-) TimerEvent: {}
+[68.435920] (-) TimerEvent: {}
+[68.536567] (-) TimerEvent: {}
+[68.637134] (-) TimerEvent: {}
+[68.737618] (-) TimerEvent: {}
+[68.838151] (-) TimerEvent: {}
+[68.938632] (-) TimerEvent: {}
+[69.039122] (-) TimerEvent: {}
+[69.140131] (-) TimerEvent: {}
+[69.240638] (-) TimerEvent: {}
+[69.341164] (-) TimerEvent: {}
+[69.441754] (-) TimerEvent: {}
+[69.542293] (-) TimerEvent: {}
+[69.642811] (-) TimerEvent: {}
+[69.743805] (-) TimerEvent: {}
+[69.844331] (-) TimerEvent: {}
+[69.944763] (-) TimerEvent: {}
+[70.045455] (-) TimerEvent: {}
+[70.145866] (-) TimerEvent: {}
+[70.246292] (-) TimerEvent: {}
+[70.346814] (-) TimerEvent: {}
+[70.447270] (-) TimerEvent: {}
+[70.547742] (-) TimerEvent: {}
+[70.648164] (-) TimerEvent: {}
+[70.748646] (-) TimerEvent: {}
+[70.849091] (-) TimerEvent: {}
+[70.949831] (-) TimerEvent: {}
+[71.050400] (-) TimerEvent: {}
+[71.151300] (-) TimerEvent: {}
+[71.251774] (-) TimerEvent: {}
+[71.352270] (-) TimerEvent: {}
+[71.452779] (-) TimerEvent: {}
+[71.553727] (-) TimerEvent: {}
+[71.654569] (-) TimerEvent: {}
+[71.755588] (-) TimerEvent: {}
+[71.856164] (-) TimerEvent: {}
+[71.956962] (-) TimerEvent: {}
+[72.057444] (-) TimerEvent: {}
+[72.157915] (-) TimerEvent: {}
+[72.258404] (-) TimerEvent: {}
+[72.359013] (-) TimerEvent: {}
+[72.459495] (-) TimerEvent: {}
+[72.560080] (-) TimerEvent: {}
+[72.661027] (-) TimerEvent: {}
+[72.761571] (-) TimerEvent: {}
+[72.862109] (-) TimerEvent: {}
+[72.962540] (-) TimerEvent: {}
+[73.063125] (-) TimerEvent: {}
+[73.163937] (-) TimerEvent: {}
+[73.264371] (-) TimerEvent: {}
+[73.364811] (-) TimerEvent: {}
+[73.465354] (-) TimerEvent: {}
+[73.565854] (-) TimerEvent: {}
+[73.666293] (-) TimerEvent: {}
+[73.766821] (-) TimerEvent: {}
+[73.867403] (-) TimerEvent: {}
+[73.967942] (-) TimerEvent: {}
+[74.068416] (-) TimerEvent: {}
+[74.169002] (-) TimerEvent: {}
+[74.269630] (-) TimerEvent: {}
+[74.370158] (-) TimerEvent: {}
+[74.470917] (-) TimerEvent: {}
+[74.571724] (-) TimerEvent: {}
+[74.672367] (-) TimerEvent: {}
+[74.773124] (-) TimerEvent: {}
+[74.873646] (-) TimerEvent: {}
+[74.974285] (-) TimerEvent: {}
+[75.074809] (-) TimerEvent: {}
+[75.175444] (-) TimerEvent: {}
+[75.276057] (-) TimerEvent: {}
+[75.377323] (-) TimerEvent: {}
+[75.478374] (-) TimerEvent: {}
+[75.578907] (-) TimerEvent: {}
+[75.679419] (-) TimerEvent: {}
+[75.780296] (-) TimerEvent: {}
+[75.881175] (-) TimerEvent: {}
+[75.981591] (-) TimerEvent: {}
+[76.082178] (-) TimerEvent: {}
+[76.183158] (-) TimerEvent: {}
+[76.283674] (-) TimerEvent: {}
+[76.384215] (-) TimerEvent: {}
+[76.484831] (-) TimerEvent: {}
+[76.505638] (policy_translation) CommandEnded: {'returncode': 2}
+[76.585076] (-) TimerEvent: {}
+[76.685877] (-) TimerEvent: {}
+[76.710841] (policy_translation) JobEnded: {'identifier': 'policy_translation', 'rc': 2}
+[76.722145] (-) EventReactorShutdown: {}

@@ -1,0 +1,30 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from policy_translation:msg/Dummy.idl
+// generated code does not contain a copyright notice
+#include "sensor_msgs/msg/dds_connext/Image_.idl"
+
+#ifndef __policy_translation__msg__dummy__idl__
+#define __policy_translation__msg__dummy__idl__
+
+
+module policy_translation {
+
+module msg {
+
+module dds_ {
+
+
+struct Dummy_ {
+sensor_msgs::msg::dds_::Image_ image_;
+
+};
+
+
+};  // module dds_
+
+};  // module msg
+
+};  // module policy_translation
+
+
+#endif  // __policy_translation__msg__dummy__idl__

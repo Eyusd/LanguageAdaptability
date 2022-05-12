@@ -1,0 +1,49 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from policy_translation:srv/TuneNetwork.idl
+// generated code does not contain a copyright notice
+
+#ifndef __policy_translation__srv__tune_network__idl__
+#define __policy_translation__srv__tune_network__idl__
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct TuneNetwork_Request_ {
+long epochs_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct TuneNetwork_Response_ {
+boolean success_;
+
+};
+
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+#endif  // __policy_translation__srv__tune_network__idl__

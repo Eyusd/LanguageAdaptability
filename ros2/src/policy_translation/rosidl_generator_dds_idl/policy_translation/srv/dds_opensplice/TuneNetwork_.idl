@@ -1,0 +1,99 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from policy_translation:srv/TuneNetwork.idl
+// generated code does not contain a copyright notice
+
+#ifndef __policy_translation__srv__tune_network__idl__
+#define __policy_translation__srv__tune_network__idl__
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct TuneNetwork_Request_ {
+long epochs_;
+
+};
+
+#pragma keylist TuneNetwork_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct TuneNetwork_Response_ {
+boolean success_;
+
+};
+
+#pragma keylist TuneNetwork_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+struct Sample_TuneNetwork_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+policy_translation::srv::dds_::TuneNetwork_Request_ request_;
+
+};
+
+#pragma keylist Sample_TuneNetwork_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module policy_translation {
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+struct Sample_TuneNetwork_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+policy_translation::srv::dds_::TuneNetwork_Response_ response_;
+
+};
+
+#pragma keylist Sample_TuneNetwork_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module policy_translation {
+
+
+#endif  // __policy_translation__srv__tune_network__idl__

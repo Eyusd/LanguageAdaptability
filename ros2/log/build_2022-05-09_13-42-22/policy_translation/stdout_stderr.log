@@ -1,0 +1,23 @@
+[  0%] Built target policy_translation__cpp
+[  1%] Built target policy_translation__dds_connext_idl
+[  2%] Built target policy_translation__dds_opensplice_idl
+[  6%] Built target policy_translation__rosidl_generator_c
+[  6%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 10%] Built target policy_translation__rosidl_typesupport_cpp
+[ 14%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 18%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[ 22%] Built target policy_translation__rosidl_typesupport_c
+[ 26%] Built target policy_translation__rosidl_typesupport_introspection_c
+Traceback (most recent call last):
+  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 7, in <module>
+    from rosidl_cmake import read_generator_arguments
+ModuleNotFoundError: No module named 'rosidl_cmake'
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 31%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[ 43%] Built target policy_translation__rosidl_typesupport_connext_cpp
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

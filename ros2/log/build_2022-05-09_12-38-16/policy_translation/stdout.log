@@ -1,0 +1,67 @@
+-- Found ament_cmake: 0.8.3 (/home/eyusd/ML/ros2-linux/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found suitable version "3.6.13", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/eyusd/anaconda3/envs/ML/bin/python3
+-- Found rosidl_default_generators: 0.8.0 (/home/eyusd/ML/ros2-linux/share/rosidl_default_generators/cmake)
+-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+-- Found rosidl_adapter: 0.8.3 (/home/eyusd/ML/ros2-linux/share/rosidl_adapter/cmake)
+-- Found PrismTech OpenSplice: /usr/share/opensplice/cmake
+-- Found sensor_msgs: 0.8.1 (/home/eyusd/ML/ros2-linux/share/sensor_msgs/cmake)
+-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found version "3.6.13") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_opensplice_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp;rosidl_typesupport_opensplice_cpp
+-- Found rmw_implementation_cmake: 0.8.1 (/home/eyusd/ML/ros2-linux/share/rmw_implementation_cmake/cmake)
+-- Found PythonInterp: /home/eyusd/anaconda3/envs/ML/bin/python3 (found suitable version "3.6.13", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.0 (/home/eyusd/ML/ros2-linux/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /home/eyusd/anaconda3/envs/ML/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/eyusd/anaconda3/envs/ML/include/python3.6m
+-- Using PYTHON_LIBRARIES: /home/eyusd/anaconda3/envs/ML/lib/libpython3.6m.so
+-- Found ament_lint_auto: 0.8.2 (/home/eyusd/ML/ros2-linux/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation
+[ 36%] Built target policy_translation__dds_connext_idl
+[ 36%] Built target policy_translation__cpp
+[ 36%] Built target policy_translation__dds_opensplice_idl
+[ 36%] Built target policy_translation__rosidl_generator_c
+[ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_c
+[ 36%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_connext_cpp
+[ 36%] [34m[1mGenerating C type support for RTI Connext[0m
+[35m[1mScanning dependencies of target policy_translation__rosidl_typesupport_introspection_c[0m
+[ 36%] [32mBuilding C object CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/policy_translation/srv/tune_network__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/policy_translation/srv/network_pt__type_support.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/policy_translation/msg/dummy__type_support.c.o[0m
+[35m[1mScanning dependencies of target policy_translation__rosidl_typesupport_fastrtps_c[0m
+***DDS parse error sensor_msgs undefined at line: 18 (searching from scope 'NetworkPT_Request_')
+[ 36%] [32m[1mLinking C shared library libpolicy_translation__rosidl_typesupport_introspection_c.so[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/policy_translation/msg/dummy__type_support_c.cpp.o[0m
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/policy_translation/srv/tune_network__type_support_c.cpp.o[0m
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/policy_translation/srv/network_pt__type_support_c.cpp.o[0m
+[35m[1mScanning dependencies of target policy_translation__rosidl_typesupport_connext_c[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/policy_translation/srv/dds_connext/tune_network__type_support_c.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/policy_translation/msg/dds_connext/dummy__type_support_c.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_c/policy_translation/srv/dds_connext/network_pt__type_support_c.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_Plugin.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/NetworkPT_Support.cxx.o[0m
+[ 36%] [32m[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_fastrtps_c.so[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_introspection_c
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_Plugin.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/srv/dds_connext/TuneNetwork_Support.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_.cxx.o[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_Plugin.cxx.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/policy_translation__rosidl_typesupport_connext_c.dir/rosidl_typesupport_connext_cpp/policy_translation/msg/dds_connext/Dummy_Support.cxx.o[0m
+[ 36%] [32m[1mLinking CXX shared library libpolicy_translation__rosidl_typesupport_connext_c.so[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_connext_c
+Makefile:140: recipe for target 'all' failed

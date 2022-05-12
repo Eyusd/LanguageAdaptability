@@ -1,0 +1,3 @@
+/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation/rosidl_adapter/policy_translation:srv/NetworkPT.idl
+/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation/rosidl_adapter/policy_translation:srv/TuneNetwork.idl
+/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation/rosidl_adapter/policy_translation:msg/Dummy.idl

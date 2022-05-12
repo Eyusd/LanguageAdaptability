@@ -1,0 +1,15 @@
+[  1%] Built target policy_translation__dds_connext_idl
+[  2%] Built target policy_translation__dds_opensplice_idl
+[  2%] Built target policy_translation__cpp
+[  6%] Built target policy_translation__rosidl_generator_c
+[  6%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 11%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 14%] Built target policy_translation__rosidl_typesupport_cpp
+[ 18%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[ 22%] Built target policy_translation__rosidl_typesupport_c
+[ 26%] Built target policy_translation__rosidl_typesupport_introspection_c
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+[ 31%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[ 43%] Built target policy_translation__rosidl_typesupport_connext_cpp
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,112 @@
+// generated from rosidl_generator_dds_idl/resource/idl.idl.em
+// with input from policy_translation:srv/NetworkPT.idl
+// generated code does not contain a copyright notice
+#include "sensor_msgs/msg/dds_opensplice/Image_.idl"
+
+#ifndef __policy_translation__srv__network_pt__idl__
+#define __policy_translation__srv__network_pt__idl__
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct NetworkPT_Request_ {
+sensor_msgs::msg::dds_::Image_ image_;
+string language_;
+sequence<float> robot_;
+
+boolean reset_;
+boolean plot_;
+
+};
+
+#pragma keylist NetworkPT_Request_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+
+struct NetworkPT_Response_ {
+sequence<float> trajectory_;
+
+sequence<float> confidence_;
+
+long timesteps_;
+sequence<float> weights_;
+
+float phase_;
+
+};
+
+#pragma keylist NetworkPT_Response_
+
+};  // module dds_
+
+};  // module srv
+
+};  // module policy_translation
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+struct Sample_NetworkPT_Request_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+policy_translation::srv::dds_::NetworkPT_Request_ request_;
+
+};
+
+#pragma keylist Sample_NetworkPT_Request_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module policy_translation {
+
+
+module policy_translation {
+
+module srv {
+
+module dds_ {
+
+struct Sample_NetworkPT_Response_ {
+
+unsigned long long client_guid_0_;
+unsigned long long client_guid_1_;
+long long sequence_number_;
+policy_translation::srv::dds_::NetworkPT_Response_ response_;
+
+};
+
+#pragma keylist Sample_NetworkPT_Response_
+
+};  // module dds_
+
+};  // module srv {
+
+};  // module policy_translation {
+
+
+#endif  // __policy_translation__srv__network_pt__idl__

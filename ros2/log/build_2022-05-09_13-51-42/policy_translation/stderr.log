@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 7, in <module>
+    from rosidl_cmake import read_generator_arguments
+ModuleNotFoundError: No module named 'rosidl_cmake'
+make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

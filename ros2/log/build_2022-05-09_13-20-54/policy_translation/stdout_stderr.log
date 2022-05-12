@@ -1,0 +1,32 @@
+[ 36%] Built target policy_translation__cpp
+[ 36%] Built target policy_translation__dds_opensplice_idl
+[ 36%] Built target policy_translation__dds_connext_idl
+[ 36%] Built target policy_translation__rosidl_generator_c
+[ 36%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 36%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_c
+[ 36%] Built target policy_translation__rosidl_typesupport_introspection_c
+[ 36%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[ 36%] Built target policy_translation__rosidl_typesupport_connext_cpp
+[ 36%] Built target policy_translation__rosidl_typesupport_connext_c
+"NetworkPT_.idl", line 5: can't find include file sensor_msgs/msg/dds_opensplice/Image_.idl
+***DDS parse error sensor_msgs undefined at line: 18 (searching from scope 'NetworkPT_Request_')
+Traceback (most recent call last):
+  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 55, in <module>
+    sys.exit(main())
+  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 50, in main
+    args.idl_pp,
+  File "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_opensplice_cpp/__init__.py", line 74, in generate_dds_opensplice_cpp
+    subprocess.check_call(cmd, cwd=folder)
+  File "/home/eyusd/anaconda3/envs/ML/lib/python3.6/subprocess.py", line 311, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/idlpp', '-I', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation/rosidl_generator_dds_idl', '-I', '/home/eyusd/ML/ros2-linux/share', '-I', '/usr/etc/opensplice/idlpp', '-S', '-l', 'cpp', '-N', '-d', '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation/rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice', '-o', 'maintain-include-namespace', 'NetworkPT_.idl']' returned non-zero exit status 255.
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1
+make[2]: *** Deleting file 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp'
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

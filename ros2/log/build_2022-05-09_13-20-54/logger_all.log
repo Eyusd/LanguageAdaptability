@@ -1,0 +1,118 @@
+[0.488s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.488s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc5420570f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc5420570f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc5420574a8>)
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.507s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.507s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eyusd/ML/LanguagePolicies/ros2'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/policy_translation) by extension 'ros'
+[0.531s] DEBUG:colcon.colcon_core.package_identification:Package 'src/policy_translation' with type 'ros.ament_cmake' and name 'policy_translation'
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 294 installed packages in /home/eyusd/ML/ros2-linux
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 43 installed packages in /opt/ros/eloquent
+[0.557s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_target' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_clean_first' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'cmake_force_configure' from command line to 'False'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'ament_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.580s] Level 5:colcon.colcon_core.verb:set package 'policy_translation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.580s] DEBUG:colcon.colcon_core.verb:Building package 'policy_translation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation', 'merge_install': False, 'path': '/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation', 'symlink_install': False, 'test_result_base': None}
+[0.581s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation' with build type 'ament_cmake'
+[0.584s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eyusd/ML/LanguagePolicies/ros2/src/policy_translation'
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.589s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.589s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(ML) /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[1.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(ML) /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[1.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(policy_translation)
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation' for CMake module files
+[1.424s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation' for CMake config files
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/bin'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/lib/pkgconfig/policy_translation.pc'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/lib/python3.6/site-packages'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/bin'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.ps1'
+[1.427s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.bash'
+[1.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/policy_translation/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eyusd/ML/LanguagePolicies/ros2/install/policy_translation/share/colcon-core/packages/policy_translation)
+[1.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.441s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.442s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.640s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.641s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.641s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.645s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[1.646s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.646s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eyusd/ML/LanguagePolicies/ros2/install/local_setup.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eyusd/ML/LanguagePolicies/ros2/install/_local_setup_util_ps1.py'
+[1.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eyusd/ML/LanguagePolicies/ros2/install/setup.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eyusd/ML/LanguagePolicies/ros2/install/local_setup.sh'
+[1.651s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eyusd/ML/LanguagePolicies/ros2/install/_local_setup_util_sh.py'
+[1.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eyusd/ML/LanguagePolicies/ros2/install/setup.sh'
+[1.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eyusd/ML/LanguagePolicies/ros2/install/local_setup.bash'
+[1.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eyusd/ML/LanguagePolicies/ros2/install/setup.bash'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eyusd/ML/LanguagePolicies/ros2/install/local_setup.zsh'
+[1.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eyusd/ML/LanguagePolicies/ros2/install/setup.zsh'

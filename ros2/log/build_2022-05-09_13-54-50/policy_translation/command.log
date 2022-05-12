@@ -1,0 +1,2 @@
+Invoking command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(ML) /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+Invoked command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/eloquent CONDA_PROMPT_MODIFIER=(ML) /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8

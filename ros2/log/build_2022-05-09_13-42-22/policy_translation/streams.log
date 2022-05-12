@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation': /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8
+[0.072s] [  0%] Built target policy_translation__cpp
+[0.074s] [  1%] Built target policy_translation__dds_connext_idl
+[0.077s] [  2%] Built target policy_translation__dds_opensplice_idl
+[0.083s] [  6%] Built target policy_translation__rosidl_generator_c
+[0.105s] [  6%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[0.119s] [ 10%] Built target policy_translation__rosidl_typesupport_cpp
+[0.121s] [ 14%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[0.122s] [ 18%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[0.128s] [ 22%] Built target policy_translation__rosidl_typesupport_c
+[0.129s] [ 26%] Built target policy_translation__rosidl_typesupport_introspection_c
+[0.148s] Traceback (most recent call last):
+[0.148s]   File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 7, in <module>
+[0.149s]     from rosidl_cmake import read_generator_arguments
+[0.149s] ModuleNotFoundError: No module named 'rosidl_cmake'
+[0.153s] CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+[0.153s] make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1
+[0.153s] CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+[0.153s] make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2
+[0.153s] make[1]: *** Waiting for unfinished jobs....
+[0.159s] [ 31%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[0.169s] [ 43%] Built target policy_translation__rosidl_typesupport_connext_cpp
+[0.170s] Makefile:140: recipe for target 'all' failed
+[0.170s] make: *** [all] Error 2
+[0.172s] Invoked command in '/home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation' returned '2': /usr/bin/cmake --build /home/eyusd/ML/LanguagePolicies/ros2/build/policy_translation -- -j8 -l8

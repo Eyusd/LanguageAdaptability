@@ -1,0 +1,39 @@
+[  1%] Built target policy_translation__dds_connext_idl
+[  2%] Built target policy_translation__cpp
+[  5%] Built target policy_translation__rosidl_generator_c
+[  6%] Built target policy_translation__dds_opensplice_idl
+[  7%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[  7%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 11%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 17%] Built target policy_translation__rosidl_typesupport_c
+[ 19%] Built target policy_translation__rosidl_typesupport_cpp
+[ 23%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+Traceback (most recent call last):
+  File "/home/eyusd/ML/ros2-linux/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 6, in <module>
+    from rosidl_typesupport_introspection_c import generate_c
+ModuleNotFoundError: No module named 'rosidl_typesupport_introspection_c'
+CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/build.make:160: recipe for target 'rosidl_typesupport_introspection_c/policy_translation/srv/network_pt__rosidl_typesupport_introspection_c.h' failed
+make[2]: *** [rosidl_typesupport_introspection_c/policy_translation/srv/network_pt__rosidl_typesupport_introspection_c.h] Error 1
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:825: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_introspection_c.dir/all' failed
+[ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+Traceback (most recent call last):
+  File "/opt/ros/eloquent/lib/rosidl_typesupport_opensplice_cpp/rosidl_typesupport_opensplice_cpp", line 7, in <module>
+    from rosidl_cmake import read_generator_arguments
+ModuleNotFoundError: No module named 'rosidl_cmake'
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+make[2]: *** [rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp] Error 1
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all] Error 2
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+Traceback (most recent call last):
+  File "/home/eyusd/ML/ros2-linux/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 7, in <module>
+    from rosidl_typesupport_fastrtps_c import generate_typesupport_fastrtps_c
+ModuleNotFoundError: No module named 'rosidl_typesupport_fastrtps_c'
+[ 36%] Built target policy_translation__rosidl_typesupport_connext_cpp
+CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/build.make:160: recipe for target 'rosidl_typesupport_fastrtps_c/policy_translation/srv/network_pt__rosidl_typesupport_fastrtps_c.h' failed
+make[2]: *** [rosidl_typesupport_fastrtps_c/policy_translation/srv/network_pt__rosidl_typesupport_fastrtps_c.h] Error 1
+make[1]: *** [CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/all] Error 2
+CMakeFiles/Makefile2:248: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_fastrtps_c.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

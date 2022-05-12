@@ -1,0 +1,17 @@
+[ 43%] Built target policy_translation__dds_connext_idl
+[ 43%] Built target policy_translation__dds_opensplice_idl
+[ 43%] Built target policy_translation__cpp
+[ 43%] Built target policy_translation__rosidl_generator_c
+[ 43%] [34m[1mGenerating C++ type support for PrismTech OpenSplice[0m
+[ 43%] Built target policy_translation__rosidl_typesupport_introspection_cpp
+[ 43%] Built target policy_translation__rosidl_typesupport_cpp
+[ 43%] Built target policy_translation__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target policy_translation__rosidl_typesupport_c
+[ 43%] Built target policy_translation__rosidl_typesupport_introspection_c
+[ 43%] Built target policy_translation__rosidl_typesupport_fastrtps_c
+[ 43%] Built target policy_translation__rosidl_typesupport_connext_cpp
+[ 43%] Built target policy_translation__rosidl_typesupport_connext_c
+***DDS parse error sensor_msgs undefined at line: 18 (searching from scope 'NetworkPT_Request_')
+CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/build.make:163: recipe for target 'rosidl_typesupport_opensplice_cpp/policy_translation/srv/dds_opensplice/network_pt__type_support.cpp' failed
+CMakeFiles/Makefile2:863: recipe for target 'CMakeFiles/policy_translation__rosidl_typesupport_opensplice_cpp.dir/all' failed
+Makefile:140: recipe for target 'all' failed
