@@ -1,4 +1,25 @@
 import numpy as np
+import tensorflow as tf
+import json
+import cv2
+import pathlib
+
+def imgmsg_to_cv2(path, desired_encoding="passthrough"):  
+    with open(path) as f:
+        img_msg = json.load(f)
+        f.close()
+    height,width,_ = np.array(img_msg['image']).shape
+    dtype      = "uint8"
+    n_channels = 3
+
+    dtype = np.dtype(dtype)
+    dtype = dtype.newbyteorder('<')
+
+    img_buf = np.asarray(img_msg['image'], dtype=dtype) if isinstance(img_msg['image'], list) else img_msg['image']
+    im = np.ndarray(shape=(height, width, n_channels),dtype=dtype, buffer=img_buf)
+
+    if desired_encoding == 'passthrough':
+        return im
 
 
 def classFilter(classdata):
@@ -56,10 +77,10 @@ def diverseSelection(bundle, thres, size):
     for _ in range(n,size):
         dic['detection_classes'].append(0.0)
         dic['detection_boxes'].append(np.array([0.0, 0.0, 0.0, 0.0]))
-    return dic['detection_classes'], dic['detection_boxes']
+    return np.array(dic['detection_classes']), np.array(dic['detection_boxes'])
 
 def YOLO_detect(output_data):
-    output_data = output_data[0]                                                # x(1, 25200, 7) to x(25200, 7)
+    output_data = output_data['output_0'].numpy()[0]                                             # x(1, 25200, 7) to x(25200, 7)
     boxes = np.squeeze(output_data[..., :4])                                    # boxes  [25200, 4]
     scores = np.squeeze( output_data[..., 4:5])                                 # confidences  [25200, 1]
     classes = np.array(classFilter(output_data[..., 5:]))
@@ -71,3 +92,20 @@ def YOLO_detect(output_data):
     sorted_classes, sorted_xyxy = diverseSelection((scores, classes, xyxy), 0.8, 6)
 
     return sorted_classes.astype(dtype=np.int32), sorted_xyxy.astype(dtype=np.float32)
+
+
+def test():
+    od_path = "./yolo"
+    od_path    = pathlib.Path(od_path)/"saved_model"
+    yolo = tf.saved_model.load(str(od_path))
+    yolo = yolo.signatures['serving_default']
+    yolo.trainable = False
+
+    image = imgmsg_to_cv2("../GDrive/testdata/0grWV6WGvn5_1.json")
+    resized = cv2.resize(image, (640,640), interpolation = cv2.INTER_AREA)
+    input = tf.convert_to_tensor([resized], dtype=tf.float32)
+    image_features = yolo(input)
+
+    classes,boxes = YOLO_detect(image_features)
+
+    features = np.concatenate((np.expand_dims(classes,1), boxes), axis=1)
